@@ -37,7 +37,8 @@
     border-radius: 9px;
     text-decoration: none;
     /* Always put the transition on the original "state" (css rule) */
-    transition: background-color 0.3s;
+    /* transition: background-color 0.3s; */
+    transition: all 0.3s;
     font-weight: 600;
 }
 
