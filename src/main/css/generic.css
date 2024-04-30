@@ -30,6 +30,10 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
     align-items: center;
 }
@@ -88,4 +92,24 @@
 
 strong {
     font-weight: 500;
+}
+
+.btn--form {
+    background-color: #45260a;   
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover,
+.btn--form:visited {
+   background-color: #fff;
+   color: #555;
+}
+
+*:focus {
+    outline: none;
+    /* outline: 4px dotted #e67e22;
+    outline-offset: 8px; */
+    box-shadow: 0 0 0 0.8rem hsla(28, 77%, 47%, 0.493);
 }

@@ -27,15 +27,21 @@
     margin-bottom: 4.8rem;
 }
 
+.btn,
 .btn:link, 
 .btn:visited {
     display: inline-block;
-    background-color: #e67e22;
+    /* background-color: #e67e22; */
     font-size: 2rem;
     color: #fff;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
     text-decoration: none;
+    font-family: inherit;
+
+    /* Only necessary for buttons */
+    border: none;
+    cursor: pointer;
     /* Always put the transition on the original "state" (css rule) */
     /* transition: background-color 0.3s; */
     transition: all 0.3s;
